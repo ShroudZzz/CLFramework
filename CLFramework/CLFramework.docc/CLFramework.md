@@ -1,18 +1,18 @@
 # ``CLFramework``
 
-make XCFramework sample Demo (Xcode14.2 Swift5)
+make XCFramework sample Demo (Xcode14.2 Swift5)  
 
-Target-CLFramework
-    `General`:
-        `Supported Destinations` : add build platforms
-        `Mininum Deplyments`     : set mininum version
-    `Build Settings`:
-        `Build Active Architecture Only`     : NO
-        `Build Librarises for Distributions` : YES
-        `Excluded Architectures`             : set useless arch
-    `Linking`:
-         `Dead Code Stripping`   : NO
-         `Mach-O Type`           : static lib or dymatic lib
+Target-CLFramework  
+`General`:  
+&ensp;&ensp;&ensp;&ensp;`Supported Destinations` : add build platforms  
+&ensp;&ensp;&ensp;&ensp;`Mininum Deplyments`     : set mininum version  
+`Build Settings`:  
+&ensp;&ensp;&ensp;&ensp;`Build Active Architecture Only`     : NO  
+&ensp;&ensp;&ensp;&ensp;`Build Librarises for Distributions` : YES  
+&ensp;&ensp;&ensp;&ensp;`Excluded Architectures`             : set useless arch  
+`Linking`:  
+&ensp;&ensp;&ensp;&ensp;`Dead Code Stripping`   : NO  
+&ensp;&ensp;&ensp;&ensp;`Mach-O Type`           : static lib or dymatic lib  
      
 
 **Check List**
