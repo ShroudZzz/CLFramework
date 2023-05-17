@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct CLToos {
+public struct CLTools {
     public static func Version() -> String {
         return "CLFramework-0.0.1"
     }

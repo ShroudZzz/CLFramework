@@ -1,6 +1,6 @@
 # ``CLFramework``
 
-make XCFramework sample Demo
+make XCFramework sample Demo (Xcode14.2 Swift5)
 
 Target-CLFramework
     `General`:
@@ -8,7 +8,7 @@ Target-CLFramework
         `Mininum Deplyments`     : set mininum version
     `Build Settings`:
         `Build Active Architecture Only`     : NO
-        `Build Librarises for Distributions` : NO
+        `Build Librarises for Distributions` : YES
         `Excluded Architectures`             : set useless arch
     `Linking`:
          `Dead Code Stripping`   : NO
