@@ -1,13 +1,21 @@
 # ``CLFramework``
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
+make XCFramework sample Demo
 
-## Overview
+Target-CLFramework
+    `General`:
+        `Supported Destinations` : add build platforms
+        `Mininum Deplyments`     : set mininum version
+    `Build Settings`:
+        `Build Active Architecture Only`     : NO
+        `Build Librarises for Distributions` : NO
+        `Excluded Architectures`             : set useless arch
+    `Linking`:
+         `Dead Code Stripping`   : NO
+         `Mach-O Type`           : static lib or dymatic lib
+     
 
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
+**Check List**
+* [ ] Swift File `class` `struct` `property` `func` add `public` or `open` If you want to expose the interface to others 
+* [ ] OC/C .h in File `Build Phases` -> `Headers`, .m/.c `Build Phases` -> `Compile Sources` 
 
-## Topics
-
-### <!--@START_MENU_TOKEN@-->Group<!--@END_MENU_TOKEN@-->
-
-- <!--@START_MENU_TOKEN@-->``Symbol``<!--@END_MENU_TOKEN@-->
